@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+/*
+    @media only screen and (max-width: 1000px){
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: 830px){
+        font-size: 45%;
+    } */
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/* Nav Styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+.nav__nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav__nav-list-item {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__nav-list-item:not(:last-child) {
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 1.4px solid rgb(46, 43, 43);
+}
+
+.nav__action {
+    display: flex;
+    align-items: center;
+}
+
+.nav__btn {
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -14rem;
+}
+
+.nav__login:not(:last-child) {
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 1.4px solid rgb(46, 43, 43);
+}
+
+.nav__cta {
+    color: rgb(46, 43, 43);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+.hero {
+    background-image: url(./img/hero.jpg);
+    background-position: top;
+    min-height: 45vh;
+}
+
+.section-features {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #eb8c34;
+}
+
+.feature-text {
+    font-weight: 600;
+    text-transform: capitalize;
+}
