@@ -1,3 +1,8 @@
 1. Add logo
-2. change font style
-3. add icons
+2. change background image
+3. change font style
+4. change icons
+5. change address text
+
+//live site https://olusammy.github.io/rally-trade
+//code https://github.com/oluSammy/rally-trade
